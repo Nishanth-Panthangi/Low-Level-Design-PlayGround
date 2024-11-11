@@ -47,7 +47,7 @@ enum Topping{
     }
 }
 
-abstract class Pizza {
+abstract class Pizza implements OrderItem{
     protected Base base;
     protected Size size;
     protected double baseCost;

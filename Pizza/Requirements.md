@@ -35,3 +35,26 @@ Here are some sample values for you to work with:
 	•	Pepperoni: $2
 
 With this structure, you can calculate the total price by combining the base price, size modifier, and topping costs.
+
+---
+
+Phase 2 Question
+
+Imagine that we want to extend the system to handle full orders, not just individual pizzas. Customers should be able to order multiple items together, like pizzas and drinks.
+
+Here are some requirements:
+
+	1.	An order can contain one or more pizzas and any number of drinks.
+	2.	Drinks have different types and sizes, each with a different price.
+	3.	We should be able to calculate the total price of the order, considering both pizzas and drinks.
+
+    drink Pricing
+
+	•	Types of Drinks:
+	•	Water: $1 (any size)
+	•	Soda: $1.5 (small), $2 (medium), $2.5 (large)
+	•	Juice: $2 (small), $3 (medium), $4 (large)
+	•	Sizes:
+	•	Small, Medium, Large
+
+Each drink type has a specific price per size, except for Water, which has a flat price regardless of size.
